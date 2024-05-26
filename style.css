@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: free;
+    src: url("AGENCYB.TTF") format("truetype");
+}
+body{
+    background-image: linear-gradient(gray , lightgray , white ,lightgray , gray);
+}
+form{
+    font-family: free;
+    width: 500px;
+    background-color: lightgray;
+    color: rgb(57, 57, 57);
+    margin: 135px auto;
+    border: 3px dotted black;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 20px;
+    box-shadow: 0 0 20px black;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+form:hover{
+    box-shadow: 0 0 45px black;
+    transform: scale(1.015);
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+    /* animation-name: shadow1;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite; */
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+input[type="submit"]{
+    font-size: 21px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-family: free;
+}
+input[type="submit"]:hover{
+    background-color: rgb(88, 88, 88);
+    box-shadow: 0 0 40px rgb(88, 88, 88);
+    transform: scale(0.9);
+    transition: 0.7s;
+    animation-name: shadow2;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+    
+}
+/* @keyframes shadow1 {
+    0%{
+        box-shadow: 0 0 10px black;
+    }
+    5%{
+        box-shadow: 0 0 15px black;
+    }
+    10%{
+        box-shadow: 0 0 20px black;
+    }
+    20%{
+        box-shadow: 0 0 22px black;
+    }
+    25%{
+        box-shadow: 0 0 30px black;
+    }
+    25%{
+        box-shadow: 0 0 35px black;
+    }
+    30%{
+        box-shadow: 0 0 40px black;
+    }
+    35%{
+        box-shadow: 0 0 45px black;
+    }
+    40%{    
+        box-shadow: 0 0 50px black;
+    }
+    45%{
+        box-shadow: 0 0 55px black;
+    }
+    50%{
+        box-shadow: 0 0 60px black;
+    }
+    55%{
+        box-shadow: 0 0 55px black;
+    }
+    60%{
+        box-shadow: 0 0 50px black;
+    }
+    65%{
+        box-shadow: 0 0 45px black;
+    }
+    70%{
+        box-shadow: 0 0 40px black;
+    }
+    75%{
+        box-shadow: 0 0 35px black;
+    }
+    80%{
+        box-shadow: 0 0 30px black;
+    }
+    85%{
+        box-shadow: 0 0 25px black;
+    }
+    90%{
+        box-shadow: 0 0 20px black;
+    }
+    95%{
+        box-shadow: 0 0 15px black;
+    }
+    100%{
+        box-shadow: 0 0 10px black;
+    }
+} */
+@keyframes shadow2 {
+    0%{
+        box-shadow: 0 0 0px black;
+    }
+    20%{
+        box-shadow: 0 0 5px black;
+    }
+    35%{
+        box-shadow: 0 0 7.5px black;
+    }
+    40%{
+        box-shadow: 0 0 10px black;
+    }
+    60%{
+        box-shadow: 0 0 12.5px black;
+    }
+    75%{
+        box-shadow: 0 0 10px black;
+    }
+    80%{
+        box-shadow: 0 0 7.5px black;
+    }
+    100%{
+        box-shadow: 0 0 5px black;
+    }
+}
